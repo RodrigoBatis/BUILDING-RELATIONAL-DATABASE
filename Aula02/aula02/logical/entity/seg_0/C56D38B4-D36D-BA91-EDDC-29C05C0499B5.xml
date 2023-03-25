@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C56D38B4-D36D-BA91-EDDC-29C05C0499B5" name="PEDIDO">
+<createdBy>MICRO</createdBy>
+<createdTime>2023-03-25 02:11:29 UTC</createdTime>
+<ownerDesignName>aula02</ownerDesignName>
+<engineerTo>
+<item key="4ADABEB6-860A-EF67-8DAC-A463F24ABA97" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NUMERO_PRODUTO" id="D2404B44-22E7-2472-FC41-3E083B0FDD6D">
+<createdBy>MICRO</createdBy>
+<createdTime>2023-03-25 02:13:25 UTC</createdTime>
+<ownerDesignName>aula02</ownerDesignName>
+<engineerTo>
+<item key="4ADABEB6-860A-EF67-8DAC-A463F24ABA97" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_HORA_INICIO_ATEND" id="00E5DEE0-FD6F-5686-E34C-497C3DBC8A01">
+<createdBy>MICRO</createdBy>
+<createdTime>2023-03-25 02:13:45 UTC</createdTime>
+<ownerDesignName>aula02</ownerDesignName>
+<engineerTo>
+<item key="4ADABEB6-860A-EF67-8DAC-A463F24ABA97" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME_ATENDENTE" id="9473CEB2-E93D-D2AB-B635-6489B825A4B9">
+<createdBy>MICRO</createdBy>
+<createdTime>2023-03-25 02:14:19 UTC</createdTime>
+<ownerDesignName>aula02</ownerDesignName>
+<engineerTo>
+<item key="4ADABEB6-860A-EF67-8DAC-A463F24ABA97" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_HORA_INICIO_FIM" id="7BF054CA-902D-B4D5-86E5-9E364B8B3006">
+<createdBy>MICRO</createdBy>
+<createdTime>2023-03-25 02:14:42 UTC</createdTime>
+<ownerDesignName>aula02</ownerDesignName>
+<engineerTo>
+<item key="4ADABEB6-860A-EF67-8DAC-A463F24ABA97" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4DD8B1DA-EFC9-374F-E99B-95E702ABD35D" name="PEDIDO PK">
+<createdBy>MICRO</createdBy>
+<createdTime>2023-03-25 02:13:42 UTC</createdTime>
+<ownerDesignName>aula02</ownerDesignName>
+<engineerTo>
+<item key="4ADABEB6-860A-EF67-8DAC-A463F24ABA97" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D2404B44-22E7-2472-FC41-3E083B0FDD6D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

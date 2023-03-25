@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="aula02" id="9C97FF15-AF31-F9BD-EDAA-457535B798F8" version="3.5">
+<createdBy>MICRO</createdBy>
+<createdTime>2023-03-25 02:05:23 UTC</createdTime>
+<ownerDesignName>aula02</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9C97FF15-AF31-F9BD-EDAA-457535B798F8</designId>
+</OSDM_Design>

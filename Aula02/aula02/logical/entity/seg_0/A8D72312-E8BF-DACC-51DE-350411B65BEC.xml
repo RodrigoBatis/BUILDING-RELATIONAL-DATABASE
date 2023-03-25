@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A8D72312-E8BF-DACC-51DE-350411B65BEC" name="PRODUTO">
+<createdBy>MICRO</createdBy>
+<createdTime>2023-03-25 02:11:14 UTC</createdTime>
+<ownerDesignName>aula02</ownerDesignName>
+<engineerTo>
+<item key="4ADABEB6-860A-EF67-8DAC-A463F24ABA97" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO_PRODUTO" id="219925C0-9BD8-3DE1-BFAF-2B502BC96575">
+<createdBy>MICRO</createdBy>
+<createdTime>2023-03-25 02:11:49 UTC</createdTime>
+<ownerDesignName>aula02</ownerDesignName>
+<engineerTo>
+<item key="4ADABEB6-860A-EF67-8DAC-A463F24ABA97" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME_PRODUTO" id="69BD8EE6-AC4E-F5B3-1470-9D9AE828B650">
+<createdBy>MICRO</createdBy>
+<createdTime>2023-03-25 02:12:52 UTC</createdTime>
+<ownerDesignName>aula02</ownerDesignName>
+<engineerTo>
+<item key="4ADABEB6-860A-EF67-8DAC-A463F24ABA97" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3A41AD63-EFC3-1CF9-D0AC-E87BDD784E93" name="PRODUTO PK">
+<createdBy>MICRO</createdBy>
+<createdTime>2023-03-25 02:12:19 UTC</createdTime>
+<ownerDesignName>aula02</ownerDesignName>
+<engineerTo>
+<item key="4ADABEB6-860A-EF67-8DAC-A463F24ABA97" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>219925C0-9BD8-3DE1-BFAF-2B502BC96575</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B2A46AED-A540-3C94-D1A9-6CD9ED9C0EEA" name="ESTABELECIMENTE">
+<createdBy>MICRO</createdBy>
+<createdTime>2023-03-25 02:05:35 UTC</createdTime>
+<ownerDesignName>aula02</ownerDesignName>
+<engineerTo>
+<item key="4ADABEB6-860A-EF67-8DAC-A463F24ABA97" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO_ESTABELECIMENTO" id="AFCB979E-500E-BF9D-36C0-D2450D1C4492">
+<createdBy>MICRO</createdBy>
+<createdTime>2023-03-25 02:06:23 UTC</createdTime>
+<ownerDesignName>aula02</ownerDesignName>
+<engineerTo>
+<item key="4ADABEB6-860A-EF67-8DAC-A463F24ABA97" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RAZAO_SOCIAL" id="62148518-605E-0AC5-AE4B-26706E265818">
+<createdBy>MICRO</createdBy>
+<createdTime>2023-03-25 02:09:13 UTC</createdTime>
+<ownerDesignName>aula02</ownerDesignName>
+<engineerTo>
+<item key="4ADABEB6-860A-EF67-8DAC-A463F24ABA97" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INSCRICAO_ESTADUAL" id="2FB3423A-7403-28EC-53D2-2466649A9B62">
+<createdBy>MICRO</createdBy>
+<createdTime>2023-03-25 02:09:36 UTC</createdTime>
+<ownerDesignName>aula02</ownerDesignName>
+<engineerTo>
+<item key="4ADABEB6-860A-EF67-8DAC-A463F24ABA97" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B32F633B-09C1-0F4F-4CF2-6B772E550BEE" name="ESTABELECIMENTE PK">
+<createdBy>MICRO</createdBy>
+<createdTime>2023-03-25 02:06:53 UTC</createdTime>
+<ownerDesignName>aula02</ownerDesignName>
+<engineerTo>
+<item key="4ADABEB6-860A-EF67-8DAC-A463F24ABA97" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AFCB979E-500E-BF9D-36C0-D2450D1C4492</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
