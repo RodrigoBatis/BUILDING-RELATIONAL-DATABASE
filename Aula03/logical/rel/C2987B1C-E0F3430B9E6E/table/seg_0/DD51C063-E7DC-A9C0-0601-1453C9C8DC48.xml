@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD51C063-E7DC-A9C0-0601-1453C9C8DC48" name="ESTABELECIMENTO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:32 UTC</createdTime>
+<generatorID>FED2ACF5-3F59-6B59-600B-B09CFB0344B5</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_estabelecimento" id="8AF5E0C4-4E1F-0DCD-DE4F-D96833CB40C2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:32 UTC</createdTime>
+<generatorID>A2444665-F09E-18C1-ADAC-4D1FAC471E01</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="razao_social" id="F4243CC6-3DB0-F587-2E29-D4658FFB98E6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:32 UTC</createdTime>
+<generatorID>38C53FE4-B6E6-20BD-5FB5-24E5300E5E7A</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cnpj" id="32EA0922-ECB7-CF04-FF8F-24ACD814116C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:32 UTC</createdTime>
+<generatorID>453045AE-792B-1152-CC32-4F396CC420D9</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="inscricao_estadual" id="E72202EC-F2D0-D76C-FC9E-DBBE79A8853A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:32 UTC</createdTime>
+<generatorID>B26FFDD7-AFD4-32C3-1DA4-2A1A50BDED71</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco" id="D8B537BC-5A7D-0AF2-908E-8B34838C19F9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:32 UTC</createdTime>
+<generatorID>2BE77599-F945-4475-3C45-BCF8CDB40314</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone_empresa" id="41D38E05-6514-3995-325B-D5B1917329DE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:32 UTC</createdTime>
+<generatorID>9FD6E1DB-C0BD-185C-4DB9-8E059EDC3CE0</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="084070FB-BB39-33C2-49EA-C9C15C11E0B1" name="ESTABELECIMENTO_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:32 UTC</createdTime>
+<generatorID>1231CC06-ADE5-4086-2798-1E74740ADB79</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AF5E0C4-4E1F-0DCD-DE4F-D96833CB40C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
