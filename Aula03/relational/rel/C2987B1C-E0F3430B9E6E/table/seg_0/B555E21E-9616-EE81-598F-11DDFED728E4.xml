@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B555E21E-9616-EE81-598F-11DDFED728E4" name="Pedido">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:32 UTC</createdTime>
+<generatorID>1AD4E009-E97B-6A34-F39A-E592A857C00E</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numero_pedido" id="5D0E9ECA-267C-4CEB-4332-945B521E246A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:32 UTC</createdTime>
+<generatorID>F6AD5439-9A2A-F6FC-428D-0F1E8C914265</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_hora_inicio_atend" id="03942122-E4DF-9874-38F2-BDD336BBD6D3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:32 UTC</createdTime>
+<generatorID>3AAA204C-EDD5-BB58-981D-72505AB1577A</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_atendente" id="24A28FA0-BC97-98E3-3BBC-44B94AF56F96">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:32 UTC</createdTime>
+<generatorID>E5F3CC59-E237-B43E-BF3E-E0F5655CAA13</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="forma_pagamenta" id="2AB05038-D397-1DBA-3D3B-5CB3A8DA3BF9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:32 UTC</createdTime>
+<generatorID>2696FFB0-E740-CE9C-7D43-BF962FFE21CC</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_cliente" id="240F4E0F-27D0-BA66-E5F9-F7E3C2B7BF31">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:32 UTC</createdTime>
+<generatorID>2AC58502-FBA1-C64E-4691-BFEEC1339DCD</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qtde_pessoas" id="60EA8999-255F-8A8F-3D25-246EB24D148E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:32 UTC</createdTime>
+<generatorID>BDE29C7A-7A96-1A68-260E-42FD0EBE398E</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_hora_fim_atend" id="991F0C38-C3C5-08D5-CFAB-195101B40805">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:32 UTC</createdTime>
+<generatorID>B4931C5F-00F4-3556-11B2-B64600EE8BDA</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_total_venda" id="E1BAA66E-8BD4-77CA-E771-F1F0AD5F464D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:32 UTC</createdTime>
+<generatorID>AB1F56D6-2BD5-0A4E-F766-D0B3BA676780</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_total_desconto" id="8CFD02FC-CB13-3822-4802-B704D453AD16">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:32 UTC</createdTime>
+<generatorID>7DA15392-3C20-85C7-424D-B3D9FEBD26A3</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_mesa" id="3F916FB8-7603-AAC3-63E8-081FE8D3D81F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:32 UTC</createdTime>
+<generatorID>120D3ECA-B72E-641A-8F8E-17740B23D190</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B9D4E74-2F0D-1861-3B13-4AA0E944A2CB" name="Pedido_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:32 UTC</createdTime>
+<generatorID>41832413-DB1E-2EDE-E957-B0E056002E79</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D0E9ECA-267C-4CEB-4332-945B521E246A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

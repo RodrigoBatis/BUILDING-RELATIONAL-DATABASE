@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7F4AC690-AF89-31CC-A9D5-64C329598FF2" name="Produto">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 00:51:05 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="C2987B1C-3C99-E56E-4055-E0F3430B9E6E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_produto" id="791DC946-2C24-B1CE-84AA-C9061B415D98">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:02:56 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="C2987B1C-3C99-E56E-4055-E0F3430B9E6E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_produto" id="8C021347-6E98-C1F3-36F6-38DD9AEA1CC4">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:03:06 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="C2987B1C-3C99-E56E-4055-E0F3430B9E6E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidade_consumida" id="AB207C02-103B-8A6D-374D-B3583E0B35B6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:03:25 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="C2987B1C-3C99-E56E-4055-E0F3430B9E6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="1139BC82-1B0A-B43F-00D7-8CAC999AF84C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:03:42 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="C2987B1C-3C99-E56E-4055-E0F3430B9E6E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preco_unitario" id="539BD135-B57B-D47A-3F0F-1DB81FB7326C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:03:48 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="C2987B1C-3C99-E56E-4055-E0F3430B9E6E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D097E49C-0046-B2B0-227E-9C84E580D6D7" name="Produto PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:03:19 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="C2987B1C-3C99-E56E-4055-E0F3430B9E6E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>791DC946-2C24-B1CE-84AA-C9061B415D98</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

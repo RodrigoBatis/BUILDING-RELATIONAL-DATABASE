@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FED2ACF5-3F59-6B59-600B-B09CFB0344B5" name="ESTABELECIMENTO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 00:52:11 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="C2987B1C-3C99-E56E-4055-E0F3430B9E6E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_estabelecimento" id="A2444665-F09E-18C1-ADAC-4D1FAC471E01">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 00:54:13 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="C2987B1C-3C99-E56E-4055-E0F3430B9E6E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="razao_social" id="38C53FE4-B6E6-20BD-5FB5-24E5300E5E7A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 00:57:36 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="C2987B1C-3C99-E56E-4055-E0F3430B9E6E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnpj" id="453045AE-792B-1152-CC32-4F396CC420D9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 00:58:22 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="C2987B1C-3C99-E56E-4055-E0F3430B9E6E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="inscricao_estadual" id="B26FFDD7-AFD4-32C3-1DA4-2A1A50BDED71">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:01:28 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="C2987B1C-3C99-E56E-4055-E0F3430B9E6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="2BE77599-F945-4475-3C45-BCF8CDB40314">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:02:17 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="C2987B1C-3C99-E56E-4055-E0F3430B9E6E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone_empresa" id="9FD6E1DB-C0BD-185C-4DB9-8E059EDC3CE0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:02:28 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="C2987B1C-3C99-E56E-4055-E0F3430B9E6E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1231CC06-ADE5-4086-2798-1E74740ADB79" name="ESTABELECIMENTO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 00:55:55 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<engineerTo>
+<item key="C2987B1C-3C99-E56E-4055-E0F3430B9E6E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A2444665-F09E-18C1-ADAC-4D1FAC471E01</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

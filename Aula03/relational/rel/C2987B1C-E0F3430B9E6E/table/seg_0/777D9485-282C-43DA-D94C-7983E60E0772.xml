@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="777D9485-282C-43DA-D94C-7983E60E0772" name="Produto">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:32 UTC</createdTime>
+<generatorID>7F4AC690-AF89-31CC-A9D5-64C329598FF2</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_produto" id="E7778971-941C-E060-92A3-EA148EEC7ABC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:32 UTC</createdTime>
+<generatorID>791DC946-2C24-B1CE-84AA-C9061B415D98</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_produto" id="02862466-C85B-10EA-EE88-735A4DC8A572">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:32 UTC</createdTime>
+<generatorID>8C021347-6E98-C1F3-36F6-38DD9AEA1CC4</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade_consumida" id="80AFDDB0-0642-D9AA-A8BE-C7BDB952CA4A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:32 UTC</createdTime>
+<generatorID>AB207C02-103B-8A6D-374D-B3583E0B35B6</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="F56A0AD4-C755-D64D-28C3-418AC01C721A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:32 UTC</createdTime>
+<generatorID>1139BC82-1B0A-B43F-00D7-8CAC999AF84C</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preco_unitario" id="ED61640B-9CE9-E2E2-8076-E8CBFC2FADFF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:32 UTC</createdTime>
+<generatorID>539BD135-B57B-D47A-3F0F-1DB81FB7326C</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="64A53E42-7DEC-642B-A8DD-FCD1353475C1" name="Produto_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-01 01:13:32 UTC</createdTime>
+<generatorID>D097E49C-0046-B2B0-227E-9C84E580D6D7</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7778971-941C-E060-92A3-EA148EEC7ABC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
