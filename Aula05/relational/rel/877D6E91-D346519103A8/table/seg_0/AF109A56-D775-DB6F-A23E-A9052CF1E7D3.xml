@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF109A56-D775-DB6F-A23E-A9052CF1E7D3" name="T_VB_ESTABELECIMENTO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 01:55:04 UTC</createdTime>
+<generatorID>5F7A2E5D-FE04-71F9-BEBA-8F1C8AD885B3</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_estabelecimento" id="B7C5912F-50FB-256E-12EE-3F95F43A734A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 01:55:04 UTC</createdTime>
+<generatorID>AA72459D-79DA-77F8-B10D-E66DA2479659</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C436626F-7C6B-E4B6-A2DC-82967C374C3A" name="T_VB_ESTABELECIMENTO_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 01:55:04 UTC</createdTime>
+<generatorID>F33D35D5-F899-E820-8539-C777C175548E</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7C5912F-50FB-256E-12EE-3F95F43A734A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

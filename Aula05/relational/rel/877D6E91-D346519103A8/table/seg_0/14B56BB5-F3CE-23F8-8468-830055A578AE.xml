@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="14B56BB5-F3CE-23F8-8468-830055A578AE" name="T_VB_PRODUTO_PEDIDO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 01:55:04 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_VB_PRODUTO_id_produto" id="AF9465C8-C1BC-6634-0753-E16C90C970BB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 01:55:04 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E64DC49-C3FE-2248-EEDA-215469F01C8A" referredColumn="614675F5-71BE-496B-24EF-D1179852CB24"/>
+</associations>
+</Column>
+<Column name="T_VB_PEDIDO_id_pedido" id="9B40BA56-C9C5-A7B7-1771-BB72DFF04E06">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 01:55:04 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA1CECF0-B357-6D6C-B3DE-858169FB5FE5" referredColumn="88C19162-D709-8EFA-7D14-C1EA7447B4A0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A7C7320E-A720-4E0A-138D-5E2C59D4F782" name="T_VB_PRODUTO_PEDIDO_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 01:55:04 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF9465C8-C1BC-6634-0753-E16C90C970BB"/>
+<colUsage columnID="9B40BA56-C9C5-A7B7-1771-BB72DFF04E06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E858918-2B3B-56B8-99AE-9017ACF9279D" name="T_VB_PRODUTO_PEDIDO_T_VB_PRODUTO_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 01:55:04 UTC</createdTime>
+<generatorID>C3DA94CE-AFB8-2BE8-469F-4980B2B9201D</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF9465C8-C1BC-6634-0753-E16C90C970BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B25A68C-7B2E-D21B-AAE9-2BB82E3A453F" name="T_VB_PRODUTO_PEDIDO_T_VB_PEDIDO_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 01:55:04 UTC</createdTime>
+<generatorID>C3DA94CE-AFB8-2BE8-469F-4980B2B9201D</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B40BA56-C9C5-A7B7-1771-BB72DFF04E06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

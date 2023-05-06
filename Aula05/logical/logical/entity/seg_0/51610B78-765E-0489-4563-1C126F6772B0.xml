@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="51610B78-765E-0489-4563-1C126F6772B0" name="T_VB_PRODUTO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 01:46:58 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="877D6E91-16F0-3D10-D76E-D346519103A8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_produto" id="EB4B695A-6457-4844-6573-95FBDEDBF0ED">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 01:48:21 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="877D6E91-16F0-3D10-D76E-D346519103A8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estabelecimento" id="FCFB8A16-463E-CABE-7A27-7EF66917258E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 01:49:50 UTC</createdTime>
+<generatorID>A018B892-4564-87D9-490A-60EFD43CC584</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="877D6E91-16F0-3D10-D76E-D346519103A8" value="true"/>
+</engineerTo>
+<referedAttribute>AA72459D-79DA-77F8-B10D-E66DA2479659</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5A26E359-D925-684B-13F3-6C84737A0E41" name="T_VB_PRODUTO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 01:48:48 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="877D6E91-16F0-3D10-D76E-D346519103A8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EB4B695A-6457-4844-6573-95FBDEDBF0ED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

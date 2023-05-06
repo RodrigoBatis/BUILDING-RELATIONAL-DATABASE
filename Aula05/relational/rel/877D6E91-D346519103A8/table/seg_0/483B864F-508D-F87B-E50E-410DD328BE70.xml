@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="483B864F-508D-F87B-E50E-410DD328BE70" name="T_VB_PRODUTO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 01:55:04 UTC</createdTime>
+<generatorID>51610B78-765E-0489-4563-1C126F6772B0</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produto" id="614675F5-71BE-496B-24EF-D1179852CB24">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 01:55:04 UTC</createdTime>
+<generatorID>EB4B695A-6457-4844-6573-95FBDEDBF0ED</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_VB_ESTABELECIMENTO_id_estabelecimento" id="A73C59D4-C3A5-9BF4-37BF-F807EBD093B7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 01:55:04 UTC</createdTime>
+<generatorID>FCFB8A16-463E-CABE-7A27-7EF66917258E</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73EF6350-FDF4-ADA5-6551-3E69EC3003F7" referredColumn="B7C5912F-50FB-256E-12EE-3F95F43A734A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="639D729B-0F02-770C-19CE-06D11BF48B9B" name="T_VB_PRODUTO_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 01:55:04 UTC</createdTime>
+<generatorID>5A26E359-D925-684B-13F3-6C84737A0E41</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="614675F5-71BE-496B-24EF-D1179852CB24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C41E1E18-57D3-13DC-D5AE-AAABD72CC6FE" name="T_VB_PRODUTO_T_VB_ESTABELECIMENTO_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 01:55:04 UTC</createdTime>
+<generatorID>A018B892-4564-87D9-490A-60EFD43CC584</generatorID>
+<ownerDesignName>relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A73C59D4-C3A5-9BF4-37BF-F807EBD093B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

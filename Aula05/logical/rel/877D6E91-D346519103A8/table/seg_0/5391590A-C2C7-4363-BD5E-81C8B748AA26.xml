@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5391590A-C2C7-4363-BD5E-81C8B748AA26" name="T_VB_PEDIDO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 01:55:04 UTC</createdTime>
+<generatorID>D8D5FF3D-2081-3957-F9E3-8E030BAE076E</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pedido" id="88C19162-D709-8EFA-7D14-C1EA7447B4A0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 01:55:04 UTC</createdTime>
+<generatorID>C9E4C48F-CB2B-3337-9F8C-2FC8835C7051</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_VB_CLIENTE_id_cliente" id="3B0C5EF2-5106-3084-2D2F-9EE3489E9659">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 01:55:04 UTC</createdTime>
+<generatorID>8E350A75-17F5-AE58-FC2F-805ECB2A1615</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2723BA2B-F1AA-C02F-125B-E7DA51722BF3" referredColumn="E4704FE7-8639-F67F-64D5-7FFA8FE7E640"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B97ED36-97BD-1D77-73C0-E4E8BD60872A" name="T_VB_PEDIDO_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 01:55:04 UTC</createdTime>
+<generatorID>21DC8D26-C5C2-847E-3B3C-6598373F9345</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88C19162-D709-8EFA-7D14-C1EA7447B4A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D1EA40D-6454-5DF2-87EA-32C7065988B3" name="T_VB_PEDIDO_T_VB_CLIENTE_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 01:55:04 UTC</createdTime>
+<generatorID>3B8EEE8C-DF90-8BB5-38FF-F8C0D2F18962</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B0C5EF2-5106-3084-2D2F-9EE3489E9659"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
