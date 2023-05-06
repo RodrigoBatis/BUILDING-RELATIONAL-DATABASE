@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B3D8DBB-A970-684B-D314-D0717E6140E3" name="T_VB_CLIENTE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 01:57:30 UTC</createdTime>
+<ownerDesignName>logical2</ownerDesignName>
+<engineerTo>
+<item key="D4C110EC-0A8A-A83A-AF2D-ED43BED9D2A6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente" id="5FF76D5E-3A01-8C8B-E167-9D1AB76A8C16">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 01:57:30 UTC</createdTime>
+<ownerDesignName>logical2</ownerDesignName>
+<importedID>A3F358EF-F76D-1D7D-256B-776CDE7BB219</importedID>
+<engineerTo>
+<item key="D4C110EC-0A8A-A83A-AF2D-ED43BED9D2A6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="80AC79EA-82AB-A0F8-0EA6-E67AF98A9CC5" name="T_VB_CLIENTE PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 01:57:30 UTC</createdTime>
+<ownerDesignName>logical2</ownerDesignName>
+<engineerTo>
+<item key="D4C110EC-0A8A-A83A-AF2D-ED43BED9D2A6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5FF76D5E-3A01-8C8B-E167-9D1AB76A8C16</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="09E7A16D-49D1-280E-EE8F-01026B3DA55F" name="T_VB_PEDIDO_PRODUTO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 01:58:14 UTC</createdTime>
+<ownerDesignName>logical2</ownerDesignName>
+<engineerTo>
+<item key="D4C110EC-0A8A-A83A-AF2D-ED43BED9D2A6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_produto" id="4F4175FB-DD61-EE6D-A959-AAE59F9A2B21">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 01:58:48 UTC</createdTime>
+<generatorID>A4742665-7F69-296B-9B3E-6AFEB8CFB222</generatorID>
+<ownerDesignName>logical2</ownerDesignName>
+<engineerTo>
+<item key="D4C110EC-0A8A-A83A-AF2D-ED43BED9D2A6" value="true"/>
+</engineerTo>
+<referedAttribute>0EFB1225-B02C-3929-9FF4-39631661F20F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pedido" id="68C099C4-1B88-8E50-0B4A-9431B297BC69">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 01:58:53 UTC</createdTime>
+<generatorID>5DEBF791-3EFD-71F4-241E-96F213DE7C96</generatorID>
+<ownerDesignName>logical2</ownerDesignName>
+<engineerTo>
+<item key="D4C110EC-0A8A-A83A-AF2D-ED43BED9D2A6" value="true"/>
+</engineerTo>
+<referedAttribute>1A7DEADE-F46F-FBED-55C1-6638173B7B6E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_subtotal" id="E28D06C8-C4EF-60BA-AB95-7B7432DD7DB1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 02:01:40 UTC</createdTime>
+<ownerDesignName>logical2</ownerDesignName>
+<engineerTo>
+<item key="D4C110EC-0A8A-A83A-AF2D-ED43BED9D2A6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt_produto" id="D621EFB5-70B4-A786-E6BF-F885FB94CFD0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-06 02:02:04 UTC</createdTime>
+<ownerDesignName>logical2</ownerDesignName>
+<engineerTo>
+<item key="D4C110EC-0A8A-A83A-AF2D-ED43BED9D2A6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
